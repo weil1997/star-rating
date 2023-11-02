@@ -1,0 +1,32 @@
+.stars-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.star {
+  font-size: 100px;
+  margin: 0 8px;
+  cursor: pointer;
+  transition: color 0.2s;
+}
+
+.rating-message {
+  margin-top: 10px;
+  font-size: 16px;
+  word-wrap: break-word;
+  text-align: center;
+  margin-top: 40px;
+  font-size: 20px;
+  color: black;
+}
+
+.stars-row {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
