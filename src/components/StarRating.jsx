@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "./StarRating.css";
+import "./starRating.css";
 
 const StarRating = ({ totalStars = 5 }) => {
   const [hoveredStars, setHoveredStars] = useState(0);
